@@ -39,7 +39,7 @@ class SSHGenerator(telepot.helper.ChatHandler):
         content_type, chat_type, chat_id = telepot.glance(msg)
         frm = msg['from']
         count = 1
-        print msg
+        ##print msg
         user_id = frm['id']
         first_name = frm['first_name'].encode('utf-8')
         group_id = -1001104749192
