@@ -107,7 +107,7 @@ class SSHGenerator(telepot.helper.ChatHandler):
 
 
 def main():
-    bot = telepot.DelegatorBot("API_BOT",[
+    bot = telepot.DelegatorBot("1301161841:AAFoG-7rf1IeQbG-gpEagw47pbvMxpcz3qI",[
             pave_event_space()(
                 per_chat_id(), create_open, SSHGenerator, timeout=10
             ),
