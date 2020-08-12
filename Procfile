@@ -1,1 +1,1 @@
-bot: python2 "main.py"
+worker: python3 "main.py"
