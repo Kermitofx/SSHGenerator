@@ -12,7 +12,7 @@ class Besthelper(object):
                  url_submit += x
                  break
         self.absolute_url = url_submit
-        print self.absolute_url
+       # print self.absolute_url
         return self.absolute_url
 
 class Tools(object):
